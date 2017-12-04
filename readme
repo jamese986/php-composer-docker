@@ -1,0 +1,14 @@
+file structure
+parent folder 
+	public
+		index.php
+	vendor
+composer.json
+Dockerfile
+
+
+docker build -t"sensible container name" .
+<!-- this builds from the Dockerfile -->
+
+docker run --rm -v C:/Users/james/Desktop/phpc/:/var/www/html/ -v /var/www/html/vendor -p 80:80 testc:latest
+<!-- runs container-->
